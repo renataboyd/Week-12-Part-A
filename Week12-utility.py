@@ -11,3 +11,12 @@ def LoadFile(filename):
     return string
     file.close()
 
+def UpdateString(string1, string2, index):
+    string1 = list(string1)
+    string1[index] = string2
+    string1 = ''.join(string1)
+    new_string = str(string1)
+    print(new_string)
+    return new_string
+
+
